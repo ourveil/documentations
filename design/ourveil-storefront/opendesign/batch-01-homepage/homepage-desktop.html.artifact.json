@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "kind": "html",
+  "title": "design/ourveil-storefront/opendesign/batch-01-homepage/homepage-desktop.html",
+  "entry": "design/ourveil-storefront/opendesign/batch-01-homepage/homepage-desktop.html",
+  "renderer": "html",
+  "status": "complete",
+  "exports": [
+    "html",
+    "pdf",
+    "zip"
+  ],
+  "createdAt": "2026-08-08T15:19:51.579Z",
+  "updatedAt": "2026-08-08T15:19:51.579Z",
+  "metadata": {
+    "inferred": true,
+    "reconciled": true
+  }
+}

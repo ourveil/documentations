@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "kind": "html",
+  "title": "design/ourveil-storefront/opendesign/batch-02-catalog/search-desktop.html",
+  "entry": "design/ourveil-storefront/opendesign/batch-02-catalog/search-desktop.html",
+  "renderer": "html",
+  "status": "complete",
+  "exports": [
+    "html",
+    "pdf",
+    "zip"
+  ],
+  "createdAt": "2026-08-08T15:50:58.810Z",
+  "updatedAt": "2026-08-08T15:50:58.810Z",
+  "metadata": {
+    "inferred": true,
+    "reconciled": true
+  }
+}

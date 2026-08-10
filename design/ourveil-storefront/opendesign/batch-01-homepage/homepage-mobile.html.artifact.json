@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "kind": "html",
+  "title": "design/ourveil-storefront/opendesign/batch-01-homepage/homepage-mobile.html",
+  "entry": "design/ourveil-storefront/opendesign/batch-01-homepage/homepage-mobile.html",
+  "renderer": "html",
+  "status": "complete",
+  "exports": [
+    "html",
+    "pdf",
+    "zip"
+  ],
+  "createdAt": "2026-08-08T15:21:23.307Z",
+  "updatedAt": "2026-08-08T15:21:23.307Z",
+  "metadata": {
+    "inferred": true,
+    "reconciled": true
+  }
+}
