@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="بوابة التدقيق النهائي وتسليم تطوير واجهة متجر OURVEIL">
+  <title>Batch 07 · Final Storefront Audit & Handoff · OURVEIL</title>
+  <link rel="icon" href="../assets/ourveil-favicon.png">
+  <link rel="stylesheet" href="assets/audit.css">
+</head>
+<body>
+  <a class="skip-link" href="#content" data-od-id="skip-link">انتقلي إلى المحتوى</a>
+  <div class="announcement" data-od-id="release-announcement">التدقيق المصدر مكتمل · الاعتماد المرئي النهائي ما زال مطلوبًا</div>
+  <header class="site-header" data-od-id="handoff-header">
+    <div class="container header-row">
+      <span class="header-status">BATCH 07 · FINAL HANDOFF</span>
+      <a href="#top" aria-label="OURVEIL — بداية الصفحة" data-od-id="brand-link"><img class="brand-logo" src="../assets/ourveil-navbar-dark-ui.png" alt="OURVEIL"></a>
+      <nav class="header-nav" aria-label="أقسام التسليم">
+        <a href="#audit">نتيجة التدقيق</a><a href="#journey">الرحلة</a><a href="#documents">ملفات التسليم</a><a href="#decision">القرار</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero" id="top" data-od-id="final-handoff-hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">OURVEIL · FINAL STOREFRONT PHASE</p>
+          <h1 data-od-id="handoff-title">متجر واحد، بقرارات تنفيذ واضحة.</h1>
+          <p>تدقيق موحّد لرحلة العميلة من الاكتشاف إلى الدفع والحساب والدعم، مع تحويل أنماط Batches 01–06 إلى عقود مسارات ومكونات وقواعد أعمال قابلة للتنفيذ.</p>
+        </div>
+        <aside class="release-note" aria-labelledby="release-state-title" data-od-id="release-state">
+          <strong id="release-state-title">FIX — يلزم QA بصري</strong>
+          <p>لا توجد أخطاء أعمال P0. تبقى ثلاثة بنود P1: الفحص المرئي الممثل، هدف روابط تذييل Batch 05، واعتماد المحتوى القانوني والتشغيلي.</p>
+          <a href="final-audit.md">اقرئي سجل النتائج الكامل</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="audit" data-od-id="audit-overview">
+      <div class="container">
+        <div class="section-head"><div><p class="section-index">01 / SOURCE COVERAGE</p><h2>النطاق المدقق</h2></div><p>تمت مقارنة 179 صفحة HTML و214 ملفًا عبر ستة Batches. بقيت جميع المصادر المعتمدة للقراءة فقط طوال إنشاء هذا التسليم.</p></div>
+        <div class="batch-list">
+          <div class="batch-row"><span class="batch-code">B01</span><a href="../batch-01-homepage/index.html"><strong>Homepage</strong></a><p>هوية افتتاحية، اكتشاف، تصنيفات، ومحتوى تحريري.</p><span class="batch-count">2 routes · 3 HTML</span></div>
+          <div class="batch-row"><span class="batch-code">B02</span><a href="../batch-02-catalog/index.html"><strong>Catalog / Discovery</strong></a><p>بحث، تصفية، تصنيف، حالات تحميل وخطأ وعدم نتائج.</p><span class="batch-count">10 routes · 11 HTML</span></div>
+          <div class="batch-row"><span class="batch-code">B03</span><a href="../batch-03-product/index.html"><strong>Product Details</strong></a><p>معرض، اختيار variant صالح، تكبير، توافر، وإضافة للسلة.</p><span class="batch-count">9 routes · 10 HTML</span></div>
+          <div class="batch-row"><span class="batch-code">B04</span><a href="../batch-04-purchase/index.html"><strong>Purchase / Payment</strong></a><p>السلة، checkout، الشحن، التحويل اليدوي، الإثبات، والمراجعة.</p><span class="batch-count">39 routes · 40 HTML</span></div>
+          <div class="batch-row"><span class="batch-code">B05</span><a href="../batch-05-account/index.html"><strong>Account / Orders</strong></a><p>المصادقة، الحساب، العناوين، wishlist، الطلبات، والتعافي.</p><span class="batch-count">81 routes · 82 HTML</span></div>
+          <div class="batch-row"><span class="batch-code">B06</span><a href="../batch-06-public-support/index.html"><strong>Public / Support / Legal</strong></a><p>العلامة، الدعم، السياسات، القانون، والتعافي من أخطاء النظام.</p><span class="batch-count">32 routes · 33 HTML</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="journey" data-od-id="customer-journey">
+      <div class="container">
+        <div class="section-head"><div><p class="section-index">02 / CUSTOMER JOURNEY</p><h2>رحلة واحدة متصلة</h2></div><p>ملكية الميزات واضحة، لكن اللغة البصرية وقواعد الحالة مشتركة. لا يتخطى wishlist اختيار variant، ولا يبدأ التحويل قبل حسم الشحن، ولا يتحول رفع الإثبات إلى قبول دفع.</p></div>
+        <div class="journey" aria-label="تسلسل رحلة المتجر">
+          <span>الرئيسية</span><span>الكتالوج</span><span>المنتج</span><span>Wishlist</span><span>السلة</span><span>Checkout</span><span>الشحن</span><span>الدفع</span><span>الإثبات</span><span>المراجعة</span><span>الحساب</span><span>التتبع</span><span>الدعم</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-od-id="findings-summary">
+      <div class="container">
+        <div class="section-head"><div><p class="section-index">03 / FINDINGS</p><h2>نتائج قابلة للتنفيذ</h2></div><p>لا توجد P0. النتائج أدناه لا تعدّل المصادر المعتمدة؛ بل تحدد ما يجب على فريق التنفيذ أو أصحاب المحتوى إغلاقه.</p></div>
+        <div class="summary-strip" aria-label="ملخص شدة النتائج">
+          <div class="summary-item"><strong>0</strong><span>P0 · Release blocker</span></div><div class="summary-item"><strong>3</strong><span>P1 · High</span></div><div class="summary-item"><strong>3</strong><span>P2 · Medium</span></div><div class="summary-item"><strong>1</strong><span>P3 · Low</span></div>
+        </div>
+        <div class="finding-list">
+          <div class="finding-row"><span class="finding-id">QA-001</span><span class="severity p1">P1</span><strong>التحقق المرئي الممثل غير مكتمل</strong><p>يشمل carryover الخاص بـ Batch 06 وفحص الالتفاف، التركيز، والـ overlays عبر الرحلة.</p></div>
+          <div class="finding-row"><span class="finding-id">A11Y-001</span><span class="severity p1">P1</span><strong>هدف روابط تذييل Batch 05</strong><p>36px في المصدر؛ عقد التنفيذ يرفعه إلى 44px ويعيد فحص التركيز والهاتف.</p></div>
+          <div class="finding-row"><span class="finding-id">CONTENT-001</span><span class="severity p1">P1</span><strong>المحتوى التشغيلي والقانوني</strong><p>الهيكل جاهز، لكن النصوص والسياسات وبيانات التواصل تحتاج اعتمادًا مسؤولًا.</p></div>
+          <div class="finding-row"><span class="finding-id">DS-001–003</span><span class="severity p2">P2</span><strong>توحيد التنفيذ</strong><p>نقاط الانهيار، أسماء أنماط العناوين، ونسخ drawer/dialog يجب توحيدها كمكونات ذات variants.</p></div>
+          <div class="finding-row"><span class="finding-id">DOC-001</span><span class="severity p3">P3</span><strong>استراتيجية المسارات المحلية</strong><p>المسارات المنطقية موثقة؛ قرار locale prefix والـ canonical ما زال مطلوبًا.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="documents" data-od-id="handoff-documents">
+      <div class="container">
+        <div class="section-head"><div><p class="section-index">04 / DELIVERY SET</p><h2>ملفات التسليم</h2></div><p>كل ملف يملك سؤالًا واحدًا: ماذا وجدنا، ما المسارات، ما المكونات، أين تعيش الحالة، وما الذي يمنع الادعاءات أو الاستنتاجات غير المعتمدة.</p></div>
+        <div class="doc-list">
+          <div class="doc-row"><a href="final-audit.md">التدقيق النهائي</a><p>سجل النتائج والأدلة وتصحيح التنفيذ وملخص 17 workstream.</p><a class="open" href="final-audit.md">فتح</a></div>
+          <div class="doc-row"><a href="route-matrix.md">مصفوفة المسارات</a><p>الوصول والحالات والبيانات وSEO والمصادقة والمعاملات.</p><a class="open" href="route-matrix.md">فتح</a></div>
+          <div class="doc-row"><a href="component-inventory.md">مخزون المكونات</a><p>المصدر المرئي والحالات والاستجابة وRTL واحتياجات الوصول.</p><a class="open" href="component-inventory.md">فتح</a></div>
+          <div class="doc-row"><a href="implementation-handoff.md">تسليم Frontend</a><p>حدود Next.js، النماذج، الاستعلامات، الحالة، الخصوصية، والتنظيم.</p><a class="open" href="implementation-handoff.md">فتح</a></div>
+          <div class="doc-row"><a href="business-rules.md">قواعد الأعمال</a><p>Variant، الشحن، الدفع، الإثبات، الطلب، الضيف، والعناوين.</p><a class="open" href="business-rules.md">فتح</a></div>
+          <div class="doc-row"><a href="design-tokens-audit.md">تدقيق التوكنز</a><p>الألوان، النوع، المسافات، الحركة، الأيقونات، والانجراف.</p><a class="open" href="design-tokens-audit.md">فتح</a></div>
+          <div class="doc-row"><a href="qa-checklist.md">قائمة QA</a><p>بوابة تنفيذية للمسارات، الأعمال، الوصول، والاستجابة.</p><a class="open" href="qa-checklist.md">فتح</a></div>
+          <div class="doc-row"><a href="unresolved-decisions.md">القرارات المفتوحة</a><p>أسئلة حقيقية فقط، مع المالك وتأثير التنفيذ والسلوك الآمن الحالي.</p><a class="open" href="unresolved-decisions.md">فتح</a></div>
+          <div class="doc-row"><a href="handoff.md">ملخص Batch 07</a><p>الغرض، الملفات، الأعداد، البوابات، وحالة الاعتماد.</p><a class="open" href="handoff.md">فتح</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-od-id="component-categories">
+      <div class="container">
+        <div class="section-head"><div><p class="section-index">05 / CANONICAL UI</p><h2>مكونات مشتركة، لا Batches منفصلة</h2></div><p>يملك كل feature منطق بياناته، بينما تملك المكونات المشتركة العقد البصري والوصولي. لا يستنتج أي component صلاحية أو سعرًا أو قبول دفع من حالة محلية.</p></div>
+        <div class="component-columns">
+          <div class="component-group"><h3>Foundation</h3><p>Container · Stack · Inline · Divider · Typography · Price</p></div>
+          <div class="component-group"><h3>Navigation</h3><p>AnnouncementBar · Header · Nav · Drawer · Breadcrumbs · Footer</p></div>
+          <div class="component-group"><h3>Commerce</h3><p>ProductCard · VariantSelector · Gallery · Quantity · CartLineItem</p></div>
+          <div class="component-group"><h3>Forms</h3><p>FormField · Input · Select · Textarea · Upload · FormMessage</p></div>
+          <div class="component-group"><h3>Feedback</h3><p>Alert · Toast · EmptyState · ErrorState · Skeleton · StatusPair</p></div>
+          <div class="component-group"><h3>Domain</h3><p>Checkout · Payment · Account · Orders · FAQ · LegalContents</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-od-id="business-rule-coverage">
+      <div class="container">
+        <div class="section-head"><div><p class="section-index">06 / BUSINESS INVARIANTS</p><h2>حدود لا يجوز للواجهة كسرها</h2></div><p>هذه القواعد ليست تفاصيل عرض. يجب أن تحميها الـ API والـ domain model والواجهة معًا.</p></div>
+        <div class="rule-list">
+          <div class="rule-row"><b>01</b><strong>Sellable variant</strong><p>السلة تستقبل variantId صالحًا مع كمية؛ المنتج العام غير كافٍ.</p></div>
+          <div class="rule-row"><b>02</b><strong>Shipping before transfer</strong><p>لا تعليمات تحويل ولا مبلغ مستحق قبل حل الشحن والإجمالي.</p></div>
+          <div class="rule-row"><b>03</b><strong>Order ≠ Payment</strong><p>إنشاء الطلب ورفع الإثبات ومراجعة الدفع وقبوله حالات منفصلة.</p></div>
+          <div class="rule-row"><b>04</b><strong>Guest remains independent</strong><p>إتمام الشراء لا يتطلب حسابًا، والربط التاريخي غير مفترض.</p></div>
+          <div class="rule-row"><b>05</b><strong>Snapshots remain historical</strong><p>تفاصيل الطلب تعتمد لقطة الشراء لا بيانات المنتج الحالية.</p></div>
+          <div class="rule-row"><b>06</b><strong>Backend authority</strong><p>السعر والمخزون والصلاحيات والشحن والحالات ليست حقيقة Frontend.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section decision-band" id="decision" data-od-id="final-release-decision">
+      <div class="container gate">
+        <div><p class="section-index">07 / RELEASE GATE</p><h2>المصدر جاهز للتنفيذ، وليس للاعتماد البصري النهائي بعد.</h2><p>البصمات تحفظ Batches 01–06 كما هي. المصفوفات متصالحة، وقواعد الأعمال متسقة، ولا توجد P0. يبقى القرار FIX حتى ينجح الفحص المرئي الممثل، يُصحح هدف تذييل Batch 05 في التنفيذ، ويُعتمد المحتوى القانوني والتشغيلي.</p></div>
+        <div class="gate-mark" aria-label="القرار: FIX">FIX</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" data-od-id="handoff-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div><img class="footer-logo" src="../assets/ourveil-navbar-light-ui.png" alt="OURVEIL"><p>مرجع تنفيذي نهائي يحافظ على هدوء المتجر ودقته من دون اختراع قرارات تشغيلية.</p></div>
+        <nav aria-label="مراجع التنفيذ"><strong>التنفيذ</strong><a href="implementation-handoff.md">Frontend handoff</a><a href="component-inventory.md">Component inventory</a><a href="route-matrix.md">Route matrix</a></nav>
+        <nav aria-label="مراجع الجودة"><strong>الجودة</strong><a href="final-audit.md">Final audit</a><a href="qa-checklist.md">QA checklist</a><a href="unresolved-decisions.md">Open decisions</a></nav>
+      </div>
+      <div class="footer-bottom">OURVEIL · BATCH 07 · SOURCE AUDIT COMPLETE · VISUAL QA REQUIRED</div>
+    </div>
+  </footer>
+</body>
+</html>
